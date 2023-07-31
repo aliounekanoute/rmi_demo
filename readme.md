@@ -41,14 +41,20 @@ Dans ce projet, nous avons utilisé une base de données PostgreSQL. Il faut don
 - #### Générer le fichier jar
     Ouvrir une console dans le dossier du projet server-rmi puis exécuter cette commande pour générer le fichier jar du projet:
 
-    ```mvn package```
+    ```bash
+    mvn package
+    ```
 
 - #### Démarrer le serveur:
     Ouvrir une console dans le dossier du projet server-rmi puis exécuter cette commande pour démarrer le serveur:
 
-    ```java -jar target/serveur-rmi-1.0-SNAPSHOT.jar```
+    ```bash
+    java -jar target/serveur-rmi-1.0-SNAPSHOT.jar
+    ```
 
 ### Lancer le client    
 Pour démarrer le client, il faut ouvrir une console dans le dossier client-rmi et exécuter cette commande:
 
-```mvn javafx:run```
+```bash
+mvn javafx:run
+```
