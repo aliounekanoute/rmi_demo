@@ -51,4 +51,4 @@ Dans ce projet, nous avons utilisé une base de données PostgreSQL. Il faut don
 ### Lancer le client    
 Pour démarrer le client, il faut ouvrir une console dans le dossier client-rmi et exécuter cette commande:
 
-    ```mvn javafx:run```
+```mvn javafx:run```
